@@ -2121,7 +2121,7 @@ oidc_providers:
   #    - attribute: userGroup
   #      value: "synapseUsers"
 
-{% if matrix_synapse_oidc_provider_microsoft_enabled %}
+{% if matrix_synapse_oidc_provider_microsoft_enabled | default(false) %}
   - idp_id: microsoft
     idp_name: Microsoft
     idp_icon: "{{ matrix_synapse_oidc_provider_microsoft_icon | string }}"
