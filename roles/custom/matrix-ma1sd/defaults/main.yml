@@ -5,7 +5,7 @@
 matrix_ma1sd_enabled: true
 
 matrix_ma1sd_container_image_self_build: false
-matrix_ma1sd_container_image_self_build_repo: "https://github.com/cqrenet/ma1sd.git"
+matrix_ma1sd_container_image_self_build_repo: "https://github.com/Craeckie/ma1sd.git"
 matrix_ma1sd_container_image_self_build_branch: "{{ matrix_ma1sd_version }}"
 
 matrix_ma1sd_version: "2.5.0"
